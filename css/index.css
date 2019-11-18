@@ -5768,6 +5768,7 @@ h1 {
   width: 216px;
   position: absolute;
   background-size: 100%;
+  transition: left 1s ease;
 }
 .cards-wrapper .card.hearts-1 {
   background-image: url("../assets/cards/hearts-1.svg");
@@ -5926,7 +5927,7 @@ h1 {
   background-image: url("../assets/cards/spades-13.svg");
 }
 .cards-wrapper .card:hover {
-  z-index: 50;
+  z-index: 100;
 }
 .cards-wrapper.hidden .card {
   background: #00d4ff;
